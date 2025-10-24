@@ -52,6 +52,5 @@ fun ActivitasPertama(modifier: Modifier){
             )
         ) {
             Row() {
-
-}
-
+                val gambar = painterResource(id = R.drawable.logo)
+                Image(
