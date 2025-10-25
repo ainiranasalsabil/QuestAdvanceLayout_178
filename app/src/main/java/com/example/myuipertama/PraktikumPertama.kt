@@ -21,10 +21,18 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun ProfileScreen(modifier: Modifier = Modifier) {
-    //Tambahkan background utama warna hitam dan pusatkan konten
+    // Tambahkan background utama warna hitam dan pusatkan konten
     Box(
         modifier = modifier
             .fillMaxSize()
             .background(Color.Black),
         contentAlignment = Alignment.Center
     ) {
+        // Gunakan Column utama untuk menata konten vertikal secara seimbang
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp, bottom = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceBetween
+        )
