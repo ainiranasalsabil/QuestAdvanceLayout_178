@@ -151,3 +151,15 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
 // Komponen terpisah untuk membuat kartu menu profil
 @Composable
 fun ProfileMenuCard(icon: Int, title: String) {
+    // Gunakan Card dengan sudut melengkung dan warna gelap
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(58.dp)
+            .clickable { },
+        colors = CardDefaults.cardColors(
+            containerColor = Color(0xFF1E1E1E)
+        ),
+        shape = RoundedCornerShape(18.dp),
+        elevation = CardDefaults.cardElevation(4.dp)
+    )
