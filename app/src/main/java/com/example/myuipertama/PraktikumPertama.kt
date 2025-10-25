@@ -131,4 +131,21 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
             Column(
                 modifier = Modifier.padding(horizontal = 30.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                ProfileMenuCard(icon = R.drawable.security, title = "Privacy")
+                ProfileMenuCard(icon = R.drawable.history, title = "Riwayat Transaksi")
+                ProfileMenuCard(icon = R.drawable.settings, title = "Pengaturan")
+            }
+
+            // Tambahkan footer hak cipta di bagian bawah layar
+            Text(
+                text = "© 2025 Aini Rana Salsabil",
+                fontSize = 15.sp,
+                color = Color.White,
+                modifier = Modifier.padding(top = 16.dp)
             )
+        }
+    }
+}
+
+/
