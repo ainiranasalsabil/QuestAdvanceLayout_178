@@ -148,4 +148,6 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
     }
 }
 
-/
+// Komponen terpisah untuk membuat kartu menu profil
+@Composable
+fun ProfileMenuCard(icon: Int, title: String) {
