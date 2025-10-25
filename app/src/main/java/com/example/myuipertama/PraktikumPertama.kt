@@ -113,3 +113,14 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                         modifier = Modifier
                             .size(42.dp)
                             .clickable { }
+                    )
+                    // Ikon Instagram dengan aksi klik
+                    Image(
+                        painter = painterResource(id = R.drawable.instagram),
+                        contentDescription = "Instagram",
+                        modifier = Modifier
+                            .size(42.dp)
+                            .clickable { }
+                    )
+                }
+
