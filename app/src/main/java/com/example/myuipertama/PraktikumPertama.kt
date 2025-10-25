@@ -83,3 +83,10 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                     textAlign = TextAlign.Center
                 )
 
+                Spacer(modifier = Modifier.height(24.dp))
+
+                // Tambahkan barisan ikon media sosial dengan jarak teratur
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(22.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
