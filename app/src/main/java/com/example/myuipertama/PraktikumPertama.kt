@@ -179,3 +179,23 @@ fun ProfileMenuCard(icon: Int, title: String) {
                     tint = Color.White,
                     modifier = Modifier.size(26.dp)
                 )
+                Spacer(modifier = Modifier.width(14.dp))
+                Text(
+                    text = title,
+                    color = Color.White,
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+            // Ikon panah kanan untuk menunjukkan navigasi
+            Icon(
+                painter = painterResource(id = R.drawable.next),
+                contentDescription = null,
+                tint = Color.White,
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+}
+
+/
