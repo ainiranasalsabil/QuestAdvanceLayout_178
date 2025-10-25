@@ -73,3 +73,13 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                     color = Color(0xFFBBBBBB)
                 )
 
+                Spacer(modifier = Modifier.height(14.dp))
+
+                // Tambahkan deskripsi singkat pekerjaan atau bio
+                Text(
+                    text = "Saya seorang Data Analyst",
+                    fontSize = 15.sp,
+                    color = Color.White,
+                    textAlign = TextAlign.Center
+                )
+
