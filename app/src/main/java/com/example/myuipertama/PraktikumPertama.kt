@@ -90,3 +90,11 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                     horizontalArrangement = Arrangement.spacedBy(22.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
+                    // Ikon Facebook dengan aksi klik
+                    Image(
+                        painter = painterResource(id = R.drawable.facebook),
+                        contentDescription = "Facebook",
+                        modifier = Modifier
+                            .size(42.dp)
+                            .clickable { }
+                    )
