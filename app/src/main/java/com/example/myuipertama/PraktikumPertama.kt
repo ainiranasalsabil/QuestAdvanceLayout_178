@@ -39,3 +39,22 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
             // Bagian atas — menampilkan informasi profil
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
 
+                // Tampilkan foto profil berbentuk lingkaran
+                Image(
+                    painter = painterResource(id = R.drawable.profile),
+                    contentDescription = "Foto Profil",
+                    modifier = Modifier
+                        .size(110.dp)
+                        .clip(CircleShape)
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                // Tambahkan nama utama pengguna
+                Text(
+                    text = "Aini Rana Salsabil",
+                    fontSize = 24.sp,
+                    color = Color.White,
+                    fontWeight = FontWeight.Bold
+                )
+
