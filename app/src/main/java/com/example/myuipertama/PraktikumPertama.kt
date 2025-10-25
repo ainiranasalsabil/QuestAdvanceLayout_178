@@ -98,3 +98,10 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                             .size(42.dp)
                             .clickable { }
                     )
+                    // Ikon Twitter dengan aksi klik
+                    Image(
+                        painter = painterResource(id = R.drawable.twitter),
+                        contentDescription = "Twitter",
+                        modifier = Modifier
+                            .size(42.dp)
+                            .clickable { }
