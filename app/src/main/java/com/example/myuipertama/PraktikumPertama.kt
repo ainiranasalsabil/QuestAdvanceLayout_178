@@ -162,4 +162,12 @@ fun ProfileMenuCard(icon: Int, title: String) {
         ),
         shape = RoundedCornerShape(18.dp),
         elevation = CardDefaults.cardElevation(4.dp)
-    )
+    ) {
+        // Atur isi kartu menjadi dua sisi: ikon kiri dan panah kanan
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
