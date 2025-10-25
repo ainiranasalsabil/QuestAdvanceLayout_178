@@ -198,4 +198,9 @@ fun ProfileMenuCard(icon: Int, title: String) {
     }
 }
 
-/
+// Tambahkan fungsi preview untuk melihat tampilan di Android Studio
+@Preview(showBackground = true, backgroundColor = 0xFF000000)
+@Composable
+fun PreviewProfileScreen() {
+    ProfileScreen()
+}
