@@ -105,3 +105,11 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                         modifier = Modifier
                             .size(42.dp)
                             .clickable { }
+                    )
+                    // Ikon LinkedIn dengan aksi klik
+                    Image(
+                        painter = painterResource(id = R.drawable.linkedin),
+                        contentDescription = "LinkedIn",
+                        modifier = Modifier
+                            .size(42.dp)
+                            .clickable { }
