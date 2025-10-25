@@ -58,3 +58,18 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Bold
                 )
 
+                Spacer(modifier = Modifier.height(4.dp))
+
+                // Tambahkan username dan email dengan warna abu-abu lembut
+                Text(
+                    text = "@aini_rana",
+                    fontSize = 14.sp,
+                    color = Color(0xFFBBBBBB)
+                )
+
+                Text(
+                    text = "ainiranasalsabil09.com",
+                    fontSize = 13.sp,
+                    color = Color(0xFFBBBBBB)
+                )
+
