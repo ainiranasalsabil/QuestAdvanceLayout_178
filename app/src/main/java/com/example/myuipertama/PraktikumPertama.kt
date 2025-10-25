@@ -124,3 +124,11 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                     )
                 }
 
+                Spacer(modifier = Modifier.height(28.dp))
+            }
+
+            // Tambahkan menu navigasi berbentuk kartu
+            Column(
+                modifier = Modifier.padding(horizontal = 30.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            )
