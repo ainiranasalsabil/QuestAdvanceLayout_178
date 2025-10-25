@@ -35,4 +35,7 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                 .padding(top = 60.dp, bottom = 20.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceBetween
-        )
+        ) {
+            // Bagian atas — menampilkan informasi profil
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+
